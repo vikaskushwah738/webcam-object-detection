@@ -1,7 +1,6 @@
 "use client"
 import { useEffect, useRef, useState } from "react"
 import Webcam from "react-webcam"
-//import { load as cocossdload } from "@tensorflow-models/coco-ssd"
 import * as tf from "@tensorflow/tfjs";
 import * as cocossd from "@tensorflow-models/coco-ssd";
 
